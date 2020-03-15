@@ -1,10 +1,10 @@
-<div class="carousel">
+<div class="carousel" *ngFor="let i of carousel">
     <div class="carousel__header">
         <div class="carousel__title">
-            Populares na Netflix
+            {{ i.title }}
         </div>
     </div>
     <div class="carousel__content">
-        <app-movie></app-movie>
+        <img *ngFor="let a of i.movies" class="carousel__img" [src]="a?.imagePath" />
     </div>
 </div>

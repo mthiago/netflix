@@ -6,10 +6,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { CarouselComponent } from './carousel/carousel.component';
-import { MovieComponent } from './movie/movie.component';
 
-import {MovieService} from './movie/movie.service';
 import {BannerService} from './banner/banner.service';
+import {CarouselService} from './carousel/carousel.service'
 
 import { BannerComponent } from './banner/banner.component'
 
@@ -18,7 +17,6 @@ import { BannerComponent } from './banner/banner.component'
     AppComponent,
     HeaderComponent,
     CarouselComponent,
-    MovieComponent,
     BannerComponent
   ],
   imports: [
@@ -26,7 +24,7 @@ import { BannerComponent } from './banner/banner.component'
     AppRoutingModule,
     HttpModule
   ],
-  providers: [MovieService, BannerService],
+  providers: [CarouselService, BannerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

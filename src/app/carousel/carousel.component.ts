@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
+import {CarouselService} from './carousel.service'
+import {Carousel} from './carousel.model'
+
 @Component({
   selector: 'app-carousel',
   templateUrl: './carousel.component.html',
@@ -7,10 +10,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CarouselComponent implements OnInit {
 
-  constructor() { }
+  carousel: Carousel[]
+
+  constructor(private carouselService: CarouselService) { }
 
   ngOnInit() {
-    console.log('init')
+    this.carouselService.carousel()
+    .subscribe(res => this.carousel = res)
   }
 
 }
