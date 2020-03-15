@@ -11,7 +11,8 @@ import {BannerService} from './banner/banner.service';
 import {CarouselService} from './carousel/carousel.service'
 
 import { BannerComponent } from './banner/banner.component';
-import { LoginComponent } from './login/login.component'
+import { LoginComponent } from './login/login.component';
+import { HomeComponent } from './home/home.component'
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { LoginComponent } from './login/login.component'
     HeaderComponent,
     CarouselComponent,
     BannerComponent,
-    LoginComponent
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

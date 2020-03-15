@@ -1,10 +1,4 @@
 {
-    "login": [
-        {
-            "email": "teste@gmail.com",
-            "senha": "123456"
-        }
-    ],
     "carousel": [
         {
             "title": "Populares na Netflix",
