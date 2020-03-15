@@ -1,5 +1,5 @@
-<div *ngFor="let movie of movies">
-    {{ movie.id }}
+<div class="movie">
+    <div class="movie__item" *ngFor="let movie of movies">
+        <img class="movie__img" [src]="movie?.imagePath" />
+    </div>
 </div>
-
-<div class="nome">{{ nome }}</div>

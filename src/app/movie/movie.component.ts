@@ -10,8 +10,6 @@ import {Movie} from './movie.model'
 })
 export class MovieComponent implements OnInit {
 
-  nome: string = 'Thiago'
-  
   movies: Movie[]
 
   constructor(private movieService: MovieService) { }

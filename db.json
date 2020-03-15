@@ -4,6 +4,21 @@
             "id": "1",
             "name": "Movie 1",
             "imagePath": "assets/movies/1.webp"
-        }
+        },
+        {
+            "id": "1",
+            "name": "Movie 1",
+            "imagePath": "assets/movies/1.webp"
+        },
+        {
+            "id": "1",
+            "name": "Movie 1",
+            "imagePath": "assets/movies/1.webp"
+        },
+        {
+            "id": "1",
+            "name": "Movie 1",
+            "imagePath": "assets/movies/1.webp"
+        }    
     ]
 }
