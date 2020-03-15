@@ -1,26 +1,20 @@
 {
-    "movies": [
+    "movies-populares": [
         {
             "id": "1",
-            "name": "Movie 1",
             "imagePath": "assets/img/movies/1.webp"
-        },
-        {
-            "id": "1",
-            "name": "Movie 1",
-            "imagePath": "assets/img/movies/1.webp"
-        },
-        {
-            "id": "1",
-            "name": "Movie 1",
-            "imagePath": "assets/img/movies/1.webp"
-        },
-        {
-            "id": "1",
-            "name": "Movie 1",
-            "imagePath": "assets/img/movies/1.webp"
-        }    
+        }
     ],
+    "movies-em-alta": [
+        {
+            "id": "2",
+            "imagePath": "assets/img/movies/1.webp"
+        },
+        {
+            "id": "2",
+            "imagePath": "assets/img/movies/1.webp"
+        }        
+    ],    
     "banner": [
         {
             "imagePath": "assets/img/top1.webp"

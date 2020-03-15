@@ -13,8 +13,14 @@ export class MovieService {
 
     constructor(private http: Http) {}
 
-    movies(): Observable<Movie[]> {
-        return this.http.get(`${NETFLIX_API}/movies`)
+    getPopulares(): Observable<Movie[]> {
+        return this.http.get(`${NETFLIX_API}/movies-populares`)
+            .pipe(map(response => response.json()))
+            //.catch(ErrorHandler.handleError)
+    }
+
+    getEmAlta(): Observable<Movie[]> {
+        return this.http.get(`${NETFLIX_API}/movies-em-alta`)
             .pipe(map(response => response.json()))
             //.catch(ErrorHandler.handleError)
     }

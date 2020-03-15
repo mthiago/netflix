@@ -1,5 +1,11 @@
-<div class="movie">
-    <div class="movie__item" *ngFor="let movie of movies">
+<div class="movie" *ngIf="populares">
+    <div class="movie__item" *ngFor="let movie of populares">
         <img class="movie__img" [src]="movie?.imagePath" />
-    </div>
+    </div>    
+</div>
+
+<div class="movie" *ngIf="emAlta">
+    <div class="movie__item" *ngFor="let movie of emAlta">
+        <img class="movie__img" [src]="movie?.imagePath" />
+    </div>    
 </div>

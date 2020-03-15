@@ -10,13 +10,24 @@ import {Movie} from './movie.model'
 })
 export class MovieComponent implements OnInit {
 
-  movies: Movie[]
+  populares: Movie[]
+  emAlta: Movie[]
 
   constructor(private movieService: MovieService) { }
 
   ngOnInit() {
-    this.movieService.movies()
-      .subscribe(movies => this.movies = movies)
+    this.getPopulares()
+    this.getEmAlta()
+  }
+
+  getPopulares() {
+    this.movieService.getPopulares()
+    .subscribe(res => this.populares = res)
+  }
+
+  getEmAlta() {
+    this.movieService.getEmAlta()
+    .subscribe(res => this.emAlta = res)
   }
 
 }
