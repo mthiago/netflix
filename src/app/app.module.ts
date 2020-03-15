@@ -10,14 +10,16 @@ import { CarouselComponent } from './carousel/carousel.component';
 import {BannerService} from './banner/banner.service';
 import {CarouselService} from './carousel/carousel.service'
 
-import { BannerComponent } from './banner/banner.component'
+import { BannerComponent } from './banner/banner.component';
+import { LoginComponent } from './login/login.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     CarouselComponent,
-    BannerComponent
+    BannerComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
