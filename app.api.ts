@@ -1,0 +1,1 @@
+export const NETFLIX_API = 'http://localhost:3000'
