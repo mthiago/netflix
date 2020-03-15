@@ -1,0 +1,124 @@
+.login {
+
+    &__input {
+        padding-bottom: 16px;
+        border-radius: 4px;
+        border: 0;
+        background: #333;
+        color: #fff;
+        height: 50px;
+        line-height: 50px;
+        padding: 16px 20px 0;
+    }
+
+    &__assinatura {
+        display: flex;
+        align-items: center;
+        color: white;
+
+        &-new {
+            color: #737373;
+            font-size: 16px;
+            font-weight: 500;
+            margin-top: 16px;
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+    &__facebook {
+        color: #737373;
+        font-size: 13px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+
+        &--icon {
+            background-image: url('../../assets/img/icons/fb.png');
+            width: 20px;
+            height: 20px;
+            background-size: 100%;
+            margin-right: 10px;
+        }
+    }
+    &__options {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__option {
+        color: #b3b3b3;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    &__button {
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: bold;
+        margin: 24px 0 12px;
+        background: #E50914;
+        width: 100%;
+        max-width: 100%;
+        padding: 16px;
+        color: white;
+        border:none!important;
+    }
+
+    &__entrar {
+        color: #fff;
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 28px;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__container-content {
+        background-color: black;
+        padding: 68px;
+        width: 314px;
+        height: 344px;
+    }
+
+    &__background {
+        width: 100%;
+        height: 1125px;
+        background-image: url('../../assets/img/login/background.jpg');
+    }
+
+    &__logo {
+        background-image: url('../../assets/img/logo.png');
+        width: 100%;
+        height: 581px;
+        background-size: 256px;
+        background-repeat: no-repeat;
+    }
+
+    &__box {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__captcha {
+        margin-top: 11px;
+        font-size: 13px;
+        color: #8c8c8c;
+
+        &-more {
+            background-color: transparent;
+            border: none;
+            color: #0071eb;
+            cursor: pointer;
+            display: inline;
+            font-family: inherit;
+            font-size: inherit;
+            padding: 0;
+        }
+    }
+}
