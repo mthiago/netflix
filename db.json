@@ -44,5 +44,59 @@
         {
             "imagePath": "assets/img/top1.webp"
         }
+    ],
+    "infos": [
+        {
+            "movie": [
+                {
+                    "title": "Cheech and Chong - Smoking All",
+                    "views": [
+                        {
+                            "country": "Brazil",
+                            "number": 13
+                        },
+                        {
+                            "country": "USA",
+                            "number": 72
+                        }
+                    ],
+                    "topViewers": [
+                        {
+                            "name": "André",
+                            "age": 38,
+                            "country": "Brazil",
+                            "position": 1,
+                            "views": 13
+                        },
+                        {
+                            "name": "Carlos",
+                            "age": 21,
+                            "country": "Brazil",
+                            "position": 2,
+                            "views": 12
+                        },
+                        {
+                            "name": "João",
+                            "age": 24,
+                            "country": "Brazil",
+                            "position": 3,
+                            "views": 7
+                        }                                                
+                    ]
+                }
+            ],
+            "kinds": [
+                {
+                    "type": "fantasy",
+                    "position": 1,
+                    "views": 1942
+                },
+                {
+                    "type": "horror",
+                    "position": 2,
+                    "views": 1912
+                }          
+            ]
+        }
     ]
 }
