@@ -8,21 +8,25 @@ import { HeaderComponent } from './header/header.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { MovieComponent } from './movie/movie.component';
 
-import {MovieService} from './movie/movie.service'
+import {MovieService} from './movie/movie.service';
+import {BannerService} from './banner/banner.service';
+
+import { BannerComponent } from './banner/banner.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     CarouselComponent,
-    MovieComponent
+    MovieComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpModule
   ],
-  providers: [MovieService],
+  providers: [MovieService, BannerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
