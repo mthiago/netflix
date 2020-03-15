@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { Router } from '@angular/router'
+
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -7,19 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
-  autenticated: Boolean
   email: String
   password: String
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
-    this.autenticated = false
     this.email = 'teste@gmail.com'
     this.password = '123456'
   }
 
-  login(event): Boolean {
+  login(event) {
 
     event.preventDefault()
     let target = event.target
@@ -27,12 +27,9 @@ export class LoginComponent implements OnInit {
     let password = target.querySelector('#password').value
 
     if (email === this.email && password === this.password) {
-      this.autenticated = true
+      this.router.navigate(['home'])
     }
 
-    console.log(this.autenticated)
-
-    return this.autenticated
   }
 
 }
