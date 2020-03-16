@@ -14,7 +14,8 @@ import { BannerComponent } from './banner/banner.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { InfosComponent } from './infos/infos.component';
-import { LogoComponent } from './logo/logo.component'
+import { LogoComponent } from './logo/logo.component';
+import { FirstMenuItemComponent } from './first-menu-item/first-menu-item.component'
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { LogoComponent } from './logo/logo.component'
     LoginComponent,
     HomeComponent,
     InfosComponent,
-    LogoComponent
+    LogoComponent,
+    FirstMenuItemComponent
   ],
   imports: [
     BrowserModule,

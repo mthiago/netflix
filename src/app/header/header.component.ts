@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   page: string = 'home'
+  item: string[] = ['Início', 'Séries', 'Filmes', 'Mais recentes', 'Minha lista']
 
   constructor() { }
 

@@ -1,14 +1,6 @@
 <div class="top-menu">
-    <div>
-        <app-logo [page]="page"></app-logo>
-    </div>
-    <div class="top-menu__primary">
-        <div class="top-menu__primary--item">Início</div>
-        <div class="top-menu__primary--item">Séries</div>
-        <div class="top-menu__primary--item">Filmes</div>
-        <div class="top-menu__primary--item">Mais recentes</div>
-        <div class="top-menu__primary--item">Minha lista</div>
-    </div>
+    <app-logo [page]="page"></app-logo>
+    <app-first-menu-item [item]="item" class="top-menu__first"></app-first-menu-item>
     <div class="top-menu__secondary"></div>
     <div class="top-menu__third">
         <div class="top-menu__third--item">
