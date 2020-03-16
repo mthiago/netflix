@@ -13,7 +13,8 @@ import {CarouselService} from './carousel/carousel.service'
 import { BannerComponent } from './banner/banner.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
-import { InfosComponent } from './infos/infos.component'
+import { InfosComponent } from './infos/infos.component';
+import { LogoComponent } from './logo/logo.component'
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { InfosComponent } from './infos/infos.component'
     BannerComponent,
     LoginComponent,
     HomeComponent,
-    InfosComponent
+    InfosComponent,
+    LogoComponent
   ],
   imports: [
     BrowserModule,
