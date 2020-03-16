@@ -15,7 +15,8 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { InfosComponent } from './infos/infos.component';
 import { LogoComponent } from './logo/logo.component';
-import { FirstItemComponent } from './first-item/first-item.component'
+import { FirstItemComponent } from './first-item/first-item.component';
+import { SecondaryItemComponent } from './secondary-item/secondary-item.component'
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { FirstItemComponent } from './first-item/first-item.component'
     HomeComponent,
     InfosComponent,
     LogoComponent,
-    FirstItemComponent
+    FirstItemComponent,
+    SecondaryItemComponent
   ],
   imports: [
     BrowserModule,

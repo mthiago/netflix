@@ -1,51 +1,17 @@
-.top-menu {
+.header {
+
     display: flex;
     justify-content: space-between;
     height: 68px;
     padding: 0 26px;
 
-    &__first {
-        display: flex;
-        align-items: center;
-    }
-    &__primary {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        &--item {
-            color: white;
-            padding: 10px;
-            font-size: 12px;
-            white-space: nowrap;
-            font-weight: bold;
-        }
-    }
-
-    &__secondary {
+    &__empty {
         width: 42%;
     }
 
-    &__third {
+    &__item {
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        width: 18%;
-
-        &--item {
-            color: white;
-
-            i {
-                font-size: 21px;
-            }
-        }
     }
-}
 
-.logo {
-    background-image: url('../../assets/img/logo.png');
-    width: 130px;
-    height: 68px;
-    background-size: 130px;
-    background-repeat: no-repeat;
 }
