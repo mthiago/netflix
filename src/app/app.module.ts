@@ -24,7 +24,8 @@ import { BannerNameComponent } from './banner-name/banner-name.component';
 import { BannerDetailsComponent } from './banner-details/banner-details.component';
 import { BannerDescriptionComponent } from './banner-description/banner-description.component'
 
-import { SecondaryItemModule } from './secondary-item/secondary-item.module'
+import { SecondaryItemModule } from './secondary-item/secondary-item.module';
+import { ProfileComponent } from './profile/profile.component'
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { SecondaryItemModule } from './secondary-item/secondary-item.module'
     LoginInputComponent,
     BannerNameComponent,
     BannerDetailsComponent,
-    BannerDescriptionComponent
+    BannerDescriptionComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
