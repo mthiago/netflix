@@ -1,0 +1,36 @@
+.profile {
+
+    padding-top: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+
+    &-name {
+        padding-top: 25px;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    &-email {
+        font-size: 13px;
+    }
+
+    &-last {
+        padding-top: 25px;
+    }
+    
+    &__text {
+        text-align: center;
+    }
+
+    &__picture {
+        background-image: url(./../../assets/img/user.jpg);
+        width: 100px;
+        height: 100px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        margin-left: 150px;
+    }
+}
