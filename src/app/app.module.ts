@@ -20,7 +20,10 @@ import { SecondaryItemComponent } from './secondary-item/secondary-item.componen
 import { LoginDetailsComponent } from './login-details/login-details.component';
 import { LoginOptionsComponent } from './login-options/login-options.component';
 import { ButtonComponent } from './button/button.component';
-import { LoginInputComponent } from './login-input/login-input.component'
+import { LoginInputComponent } from './login-input/login-input.component';
+import { BannerNameComponent } from './banner-name/banner-name.component';
+import { BannerDetailsComponent } from './banner-details/banner-details.component';
+import { BannerDescriptionComponent } from './banner-description/banner-description.component'
 
 @NgModule({
   declarations: [
@@ -37,7 +40,10 @@ import { LoginInputComponent } from './login-input/login-input.component'
     LoginDetailsComponent,
     LoginOptionsComponent,
     ButtonComponent,
-    LoginInputComponent
+    LoginInputComponent,
+    BannerNameComponent,
+    BannerDetailsComponent,
+    BannerDescriptionComponent
   ],
   imports: [
     BrowserModule,
