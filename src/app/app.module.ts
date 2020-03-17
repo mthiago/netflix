@@ -16,6 +16,7 @@ import { HomeComponent } from './home/home.component';
 import { InfosComponent } from './infos/infos.component';
 import { LogoComponent } from './logo/logo.component';
 import { FirstItemComponent } from './first-item/first-item.component';
+import { SecondaryItemComponent } from './secondary-item/secondary-item.component';
 import { LoginDetailsComponent } from './login-details/login-details.component';
 import { LoginOptionsComponent } from './login-options/login-options.component';
 import { ButtonComponent } from './button/button.component';
@@ -23,8 +24,6 @@ import { LoginInputComponent } from './login-input/login-input.component';
 import { BannerNameComponent } from './banner-name/banner-name.component';
 import { BannerDetailsComponent } from './banner-details/banner-details.component';
 import { BannerDescriptionComponent } from './banner-description/banner-description.component'
-
-import { SecondaryItemModule } from './secondary-item/secondary-item.module';
 import { ProfileComponent } from './profile/profile.component'
 
 @NgModule({
@@ -38,6 +37,7 @@ import { ProfileComponent } from './profile/profile.component'
     InfosComponent,
     LogoComponent,
     FirstItemComponent,
+    SecondaryItemComponent,
     LoginDetailsComponent,
     LoginOptionsComponent,
     ButtonComponent,
@@ -50,7 +50,6 @@ import { ProfileComponent } from './profile/profile.component'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SecondaryItemModule,
     HttpModule
   ],
   providers: [CarouselService, BannerService],
