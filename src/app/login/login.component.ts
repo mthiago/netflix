@@ -14,6 +14,19 @@ export class LoginComponent implements OnInit {
 
   page: string = 'login'
 
+  inputEmail: any = [
+    {
+      'id': 'email',
+      'placeholder': 'Email ou número de telefone'
+    } 
+  ]
+  inputPassword: any = [
+    {
+      'id': 'password',
+      'placeholder': 'Senha'
+    }
+  ]
+
   constructor(private router: Router) { }
 
   ngOnInit() {

@@ -1,0 +1,8 @@
+<div *ngFor='let i of input'>
+    <div *ngIf='i.id === "email"'>
+        <input type="text" id="email" class="login-input pure-u-1" placeholder="Email ou número de telefone">
+    </div>
+    <div *ngIf='i.id === "password"'>
+        <input type="text" id="password" class="login-input pure-u-1" placeholder="Password">
+    </div>    
+</div>

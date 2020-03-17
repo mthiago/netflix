@@ -1,38 +1,20 @@
-<div class="login__background">
+<div class="login">
     <div class="pure-g">
         <app-logo [page]="page"></app-logo>
         <div class="login__container pure-u-1">
             <div class="login__container-content">
                 <div class="pure-u-1 login__entrar">Entrar</div>
                 <form (submit)="login($event)" class="login__form">
+                    <app-login-input [input]="inputEmail"></app-login-input>
+                    <app-login-input [input]="inputPassword"></app-login-input>
+                    <!--
                     <input type="text" id="email" class="login__input pure-u-1" placeholder="Email ou número de telefone">
                     <input type="text" id="password" class="login__input pure-u-1" placeholder="Senha">
-                    <button type="submit" class="login__button">Entrar</button>
+                    -->
+                    <app-button></app-button>
                 </form>
-                <div class="login__options pure-u-1">
-                    <div class="login__option">
-                        <input type="checkbox">
-                        Lembrar-se de mim
-                    </div>
-                    <div class="login__option">Precisa de ajuda?</div>
-                </div>
-                <div class="login__social">
-                    <div class="login__facebook pure-u-1">
-                        <div class="login__facebook--icon"></div>
-                        <div>Conectar com Facebook</div>
-                    </div>
-                    <div class="login__assinatura pure-u-1">
-                        <div class="login__assinatura-new">
-                            Novo por aqui?
-                            <a href="/">Assine agora</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="login__captcha pure-u-1">
-                    Esta página é protegida pelo Google reCAPTCHA
-                    para garantir que você não é um robô.
-                    <div class="login__captcha-more">Saiba mais.</div>
-                </div>
+                <app-login-options></app-login-options>
+                <app-login-details></app-login-details>
             </div>
         </div>
     </div>

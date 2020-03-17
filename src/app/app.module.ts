@@ -16,7 +16,11 @@ import { HomeComponent } from './home/home.component';
 import { InfosComponent } from './infos/infos.component';
 import { LogoComponent } from './logo/logo.component';
 import { FirstItemComponent } from './first-item/first-item.component';
-import { SecondaryItemComponent } from './secondary-item/secondary-item.component'
+import { SecondaryItemComponent } from './secondary-item/secondary-item.component';
+import { LoginDetailsComponent } from './login-details/login-details.component';
+import { LoginOptionsComponent } from './login-options/login-options.component';
+import { ButtonComponent } from './button/button.component';
+import { LoginInputComponent } from './login-input/login-input.component'
 
 @NgModule({
   declarations: [
@@ -29,7 +33,11 @@ import { SecondaryItemComponent } from './secondary-item/secondary-item.componen
     InfosComponent,
     LogoComponent,
     FirstItemComponent,
-    SecondaryItemComponent
+    SecondaryItemComponent,
+    LoginDetailsComponent,
+    LoginOptionsComponent,
+    ButtonComponent,
+    LoginInputComponent
   ],
   imports: [
     BrowserModule,
