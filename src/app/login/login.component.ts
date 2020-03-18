@@ -34,7 +34,8 @@ export class LoginComponent implements OnInit {
     private formBuilder: FormBuilder
   ) {
     this.loginForm = this.formBuilder.group({
-      name: ''
+      email: '',
+      password: ''
     })
    }
 
