@@ -1,0 +1,15 @@
+.footer {
+    background: rgba(0, 0, 0, 0.75);
+    min-height: 150px;
+    padding: 30px 200px;
+
+    &-text {
+        color: #999;
+        padding: 0;
+        margin: 0 0 30px;
+    }
+    
+    &-terms {
+        font-size: 13px;
+    }
+}

@@ -1,7 +1,7 @@
 .login {
 
     width: 100%;
-    height: 1125px;
+    height: 100%;
     background-image: url('../../assets/img/login/background.jpg');
 
     &__input {
@@ -24,6 +24,7 @@
     &__container {
         display: flex;
         justify-content: center;
+        margin-bottom: 50PX;
     }
 
     &__container-content {

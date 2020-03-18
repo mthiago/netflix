@@ -26,6 +26,7 @@ import { BannerDetailsComponent } from './banner-details/banner-details.componen
 import { BannerDescriptionComponent } from './banner-description/banner-description.component'
 import { ProfileComponent } from './profile/profile.component'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     BannerNameComponent,
     BannerDetailsComponent,
     BannerDescriptionComponent,
-    ProfileComponent
+    ProfileComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
