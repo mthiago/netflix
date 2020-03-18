@@ -25,6 +25,7 @@ import { BannerNameComponent } from './banner-name/banner-name.component';
 import { BannerDetailsComponent } from './banner-details/banner-details.component';
 import { BannerDescriptionComponent } from './banner-description/banner-description.component'
 import { ProfileComponent } from './profile/profile.component'
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,9 @@ import { ProfileComponent } from './profile/profile.component'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpModule
+    HttpModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [CarouselService, BannerService],
   bootstrap: [AppComponent]

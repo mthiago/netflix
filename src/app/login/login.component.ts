@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
 import { Router } from '@angular/router'
+import { FormBuilder } from '@angular/forms'
 
 @Component({
   selector: 'app-login',
@@ -8,6 +8,8 @@ import { Router } from '@angular/router'
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent implements OnInit {
+
+  loginForm: any
 
   email: string
   password: string
@@ -27,19 +29,25 @@ export class LoginComponent implements OnInit {
     }
   ]
 
-  constructor(private router: Router) { }
+  constructor(
+    private router: Router,
+    private formBuilder: FormBuilder
+  ) {
+    this.loginForm = this.formBuilder.group({
+      name: ''
+    })
+   }
 
   ngOnInit() {
     this.email = 'teste@gmail.com'
     this.password = '123456'
   }
 
-  login(event) {
-
-    event.preventDefault()
-    let target = event.target
-    let email = target.querySelector('#email').value
-    let password = target.querySelector('#password').value
+  login(formData: any) {
+    //event.preventDefault()
+    //let target = event.target
+    let email = formData.email
+    let password = formData.password
 
     if (email === this.email && password === this.password) {
       this.router.navigate(['home'])

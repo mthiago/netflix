@@ -4,9 +4,9 @@
         <div class="login__container pure-u-1">
             <div class="login__container-content">
                 <div class="pure-u-1 login__entrar">Entrar</div>
-                <form (submit)="login($event)" class="login__form">
-                    <app-login-input [input]="inputEmail"></app-login-input>
-                    <app-login-input [input]="inputPassword"></app-login-input>
+                <form [formGroup]="loginForm"  (ngSubmit)="login(loginForm.value)" class="login__form">
+                    <app-login-input formControlName="email"></app-login-input>
+                    <app-login-input formControlName="password"></app-login-input>
                     <!--
                     <input type="text" id="email" class="login__input pure-u-1" placeholder="Email ou número de telefone">
                     <input type="text" id="password" class="login__input pure-u-1" placeholder="Senha">
