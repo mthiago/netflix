@@ -11,15 +11,29 @@ export class PlayerComponent implements OnInit {
 
   @Input() movie: string
   @Input() imagePath: string
+  @Input() source: string
 
   ngOnInit() {
   }
 
-  play(movie) {
-    let selected = document.getElementById('carousel__recently-' + movie) 
+//  play() {
+
+//  }
+
+  play(movieCarousel) {
+    if (movieCarousel) {
+    let selected = document.getElementById('carousel__recently-' + movieCarousel) 
     selected.classList.add('actived')
     selected.style.display = 'block'
     document.getElementById('close').style.display = 'block'
+    } else {
+      console.log('a')
+      document.getElementById('close').style.display = 'block'
+      let teste = document.getElementById('teste')
+      teste.style.display = 'block'
+      teste.classList.add('actived')
+    }
+
   }
 
 }

@@ -1,1 +1,2 @@
-<img (click)="play(movie)" class="carousel__img" [src]="([imagePath])" />
+<img *ngIf="source == 'carousel'" (click)="play(movie)" class="carousel__img" [src]="imagePath" />
+<div *ngIf="source == 'banner'" (click)="play()">Assistir</div>

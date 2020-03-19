@@ -12,11 +12,4 @@ export class BannerDescriptionComponent implements OnInit {
   ngOnInit() {
   }
 
-  play() {
-    document.getElementById('close').style.display = 'block'
-    let teste = document.getElementById('teste')
-    teste.style.display = 'block'
-    teste.classList.add('actived')
-  }
-
 }

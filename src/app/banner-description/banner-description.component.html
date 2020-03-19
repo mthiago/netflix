@@ -1,6 +1,8 @@
 <div id="teste"></div>
 <div class="banner-description">
-    <app-player></app-player>
+    <div class="banner-description-item">
+        <app-player [source]="['banner']" (click)="playBanner()">Assistir</app-player>
+    </div>
     <div class="banner-description-item">Mais Informações</div>
 </div>
 <div>Prazer e dor. Seleção sexual. Como pendurar papel higiênico. Todos os comportamentos humanos são explorados.</div>
