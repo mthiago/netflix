@@ -5,6 +5,9 @@
         </div>
     </div>
     <div class="carousel__content">
-        <img *ngFor="let a of i.movies" class="carousel__img" [src]="a?.imagePath" />
+        <div *ngFor="let a of i.movies">
+            <img (click)="play(a.name)" class="carousel__img" [src]="a?.imagePath" />
+            <img src="/assets/img/recently/{{ a.name }}.webp" class="carousel__recently" id="carousel__recently-{{ a.name }}">
+        </div>
     </div>
 </div>

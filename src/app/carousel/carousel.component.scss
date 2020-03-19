@@ -1,5 +1,17 @@
 .carousel {
 
+    &__recently {
+        display: none;
+        min-width: 1000px;
+        z-index: 9999;
+        width: 100%;
+        height: 100%;
+        float: right;
+        position: fixed;
+        top: 0;
+        right: 0;        
+    }
+
     &__img {
         width: 227.61px;
         height: 128px;

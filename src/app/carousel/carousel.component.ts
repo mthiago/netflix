@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import {CarouselService} from './carousel.service'
 import {Carousel} from './carousel.model'
+import { url } from 'inspector';
 
 @Component({
   selector: 'app-carousel',
@@ -17,6 +18,10 @@ export class CarouselComponent implements OnInit {
   ngOnInit() {
     this.carouselService.carousel()
     .subscribe(res => this.carousel = res)
+  }
+
+  play(movie) {
+    document.getElementById('carousel__recently-' + movie).style.display = 'block'
   }
 
 }

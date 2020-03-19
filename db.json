@@ -4,7 +4,7 @@
             "title": "Populares na Netflix",
             "movies": [
                 {
-                    "imagePath": "assets/img/movies/1.webp"
+                    "imagePath": "assets/img/movies/disjointed.webp"
                 }
             ]
         },
@@ -12,10 +12,10 @@
             "title": "Em alta",
             "movies": [
                 {
-                    "imagePath": "assets/img/movies/1.webp"
+                    "imagePath": "assets/img/movies/disjointed.webp"
                 },
                 {
-                    "imagePath": "assets/img/movies/1.webp"
+                    "imagePath": "assets/img/movies/disjointed.webp"
                 }                
             ]
         },
@@ -23,19 +23,24 @@
             "title": "Assistidos recentemente por Thiago",
             "movies": [
                 {
-                    "imagePath": "assets/img/recently/1.webp"
+                    "imagePath": "assets/img/recently/mumia.webp",
+                    "name": "mumia"
                 },
                 {
-                    "imagePath": "assets/img/recently/2.webp"
+                    "imagePath": "assets/img/recently/onda.webp",
+                    "name": "onda"
                 },
                 {
-                    "imagePath": "assets/img/recently/3.jpg"
+                    "imagePath": "assets/img/recently/aucademia.jpg",
+                    "name": "aucademia"
                 },
                 {
-                    "imagePath": "assets/img/recently/4.webp"
+                    "imagePath": "assets/img/recently/marsha.webp",
+                    "name": "marsha"
                 },
                 {
-                    "imagePath": "assets/img/recently/5.webp"
+                    "imagePath": "assets/img/recently/disjointed.webp",
+                    "name": "disjointed"
                 }           
             ]
         }
