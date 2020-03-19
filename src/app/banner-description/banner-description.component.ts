@@ -7,15 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BannerDescriptionComponent implements OnInit {
 
-  teste = document.getElementById('teste')
-
   constructor() {}
 
   ngOnInit() {
   }
 
   play() {
-    this.teste.style.display = 'block'
+    document.getElementById('close').style.display = 'block'
+    let teste = document.getElementById('teste')
+    teste.style.display = 'block'
+    teste.classList.add('actived')
   }
 
 }
