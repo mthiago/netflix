@@ -1,0 +1,13 @@
+.close {
+    z-index: 101;
+    float: right;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: none;
+    
+    > i {
+        font-size: 50px;
+        color: white;
+    }
+}

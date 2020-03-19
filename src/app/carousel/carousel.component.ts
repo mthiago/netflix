@@ -21,6 +21,7 @@ export class CarouselComponent implements OnInit {
 
   play(movie) {
     document.getElementById('carousel__recently-' + movie).style.display = 'block'
+    document.getElementById('close').style.display = 'block'
   }
 
 }
