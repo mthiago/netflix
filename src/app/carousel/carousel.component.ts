@@ -20,7 +20,9 @@ export class CarouselComponent implements OnInit {
   }
 
   play(movie) {
-    document.getElementById('carousel__recently-' + movie).style.display = 'block'
+    let selected = document.getElementById('carousel__recently-' + movie) 
+    selected.classList.add('actived')
+    selected.style.display = 'block'
     document.getElementById('close').style.display = 'block'
   }
 
