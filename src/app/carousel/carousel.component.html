@@ -6,7 +6,7 @@
     </div>
     <div class="carousel__content">
         <div *ngFor="let a of i.movies">
-            <img (click)="play(a.name)" class="carousel__img" [src]="a?.imagePath" />
+            <app-player [movie]="a.name" [imagePath]="a.imagePath">play</app-player>
             <img src="/assets/img/recently/player/{{ a.name }}.jpg" class="carousel__recently" id="carousel__recently-{{ a.name }}">
         </div>
     </div>

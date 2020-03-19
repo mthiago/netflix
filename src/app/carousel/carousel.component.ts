@@ -19,11 +19,4 @@ export class CarouselComponent implements OnInit {
     .subscribe(res => this.carousel = res)
   }
 
-  play(movie) {
-    let selected = document.getElementById('carousel__recently-' + movie) 
-    selected.classList.add('actived')
-    selected.style.display = 'block'
-    document.getElementById('close').style.display = 'block'
-  }
-
 }

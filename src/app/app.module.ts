@@ -27,6 +27,7 @@ import { BannerDescriptionComponent } from './banner-description/banner-descript
 import { ProfileComponent } from './profile/profile.component'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
+import { PlayerComponent } from './player/player.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { FooterComponent } from './footer/footer.component';
     BannerDetailsComponent,
     BannerDescriptionComponent,
     ProfileComponent,
-    FooterComponent
+    FooterComponent,
+    PlayerComponent
   ],
   imports: [
     BrowserModule,
