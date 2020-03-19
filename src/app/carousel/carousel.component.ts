@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 
 import {CarouselService} from './carousel.service'
 import {Carousel} from './carousel.model'
-import { url } from 'inspector';
 
 @Component({
   selector: 'app-carousel',
