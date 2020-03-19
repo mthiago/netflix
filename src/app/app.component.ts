@@ -11,7 +11,8 @@ export class AppComponent {
 
   close() {
     document.getElementById('close').style.display = 'none'
-    let movie = document.getElementsByClassName('actived')[0]
+    let actived = document.getElementsByClassName('actived')[0]
+    let movie = document.getElementById(actived.id)
     movie.classList.remove('actived')
     movie.style.display = 'none'
   }
