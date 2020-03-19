@@ -4,7 +4,8 @@
             "title": "Populares na Netflix",
             "movies": [
                 {
-                    "imagePath": "assets/img/movies/disjointed.webp"
+                    "imagePath": "assets/img/movies/disjointed.webp",
+                    "name": "disjointed"
                 }
             ]
         },
@@ -12,10 +13,12 @@
             "title": "Em alta",
             "movies": [
                 {
-                    "imagePath": "assets/img/movies/disjointed.webp"
+                    "imagePath": "assets/img/movies/disjointed.webp",
+                    "name": "disjointed"
                 },
                 {
-                    "imagePath": "assets/img/movies/disjointed.webp"
+                    "imagePath": "assets/img/movies/disjointed.webp",
+                    "name": "disjointed"
                 }                
             ]
         },
