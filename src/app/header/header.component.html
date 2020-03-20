@@ -1,16 +1,14 @@
-<div class="pure-g">
-    <header class="header">
-        <div class="header-logo-box pure-u-sm-4-24 pure-u-1">
-            <div class="header-logo header-logo__home"></div>
-        </div>
-        <div class="pure-u-sm-8-24 pure-u-1-4 header-firstItem" style="float: left;">
-            <div class="header__item" *ngFor="let i of item">{{ i }}</div>
-        </div>
-        <div class="header__empty pure-u-sm-8-24 pure-u-1-4" style="float: left;"></div>
-        <div class="header-secondaryItem pure-u-sm-4-24 pure-u-1-4" style="float: right;">
-            <i class="material-icons header-secondaryItem__item" *ngFor="let i of icon">
-                {{ i }}
-            </i>
-        </div>
-    </header>
-</div>
+<header class="header">
+    <div class="header-logo-box pure-u-sm-4-24 pure-u-1">
+        <div class="header-logo header-logo__home"></div>
+    </div>
+    <div class="pure-u-sm-8-24 pure-u-1-4 header-firstItem" style="float: left;">
+        <div class="header__item" *ngFor="let i of item">{{ i }}</div>
+    </div>
+    <div class="header__empty pure-u-sm-8-24 pure-u-1-4" style="float: left;"></div>
+    <div class="header-secondaryItem pure-u-sm-4-24 pure-u-1-4" style="float: right;">
+        <i class="material-icons header-secondaryItem__item" *ngFor="let i of icon">
+            {{ i }}
+        </i>
+    </div>
+</header>

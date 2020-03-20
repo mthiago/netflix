@@ -4,9 +4,13 @@
             "title": "Populares na Netflix",
             "movies": [
                 {
-                    "imagePath": "assets/img/movies/disjointed.webp",
-                    "name": "disjointed"
-                }
+                    "imagePath": "assets/img/recently/aucademia.jpg",
+                    "name": "aucademia"
+                },
+                {
+                    "imagePath": "assets/img/recently/marsha.webp",
+                    "name": "marsha"
+                }                
             ]
         },
         {
@@ -15,11 +19,7 @@
                 {
                     "imagePath": "assets/img/movies/disjointed.webp",
                     "name": "disjointed"
-                },
-                {
-                    "imagePath": "assets/img/movies/disjointed.webp",
-                    "name": "disjointed"
-                }                
+                }             
             ]
         },
         {
@@ -32,19 +32,7 @@
                 {
                     "imagePath": "assets/img/recently/onda.webp",
                     "name": "onda"
-                },
-                {
-                    "imagePath": "assets/img/recently/aucademia.jpg",
-                    "name": "aucademia"
-                },
-                {
-                    "imagePath": "assets/img/recently/marsha.webp",
-                    "name": "marsha"
-                },
-                {
-                    "imagePath": "assets/img/recently/disjointed.webp",
-                    "name": "disjointed"
-                }           
+                }
             ]
         }
     ],   
