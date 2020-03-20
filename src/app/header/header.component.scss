@@ -17,6 +17,7 @@
         font-size: 12px;
         white-space: nowrap;
         font-weight: bold;
+        cursor: pointer;
     }
 
     &-secondaryItem {
@@ -25,6 +26,7 @@
     }
 
     &-logo {
+        cursor: pointer;
         background-image: url('../../assets/img/logo.png');
         background-repeat: no-repeat;
     
@@ -69,6 +71,7 @@
                 margin-left: 20px;
                 font-size: 21px;
                 color: white;
+                cursor: pointer;
             }
 
         }
