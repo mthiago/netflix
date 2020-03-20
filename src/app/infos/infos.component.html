@@ -1,1 +1,31 @@
-<p>infos works!</p>
+<div class="pure-u-1">
+    <div class="pure-u-1">Informações de Visualizações</div>
+    <div class="pure-u-1">
+        <div>Filmes mais assistidos em ao redor do mundo:</div>
+        <div class="pure-u-1" *ngFor="let c of country">
+            <div>{{ c.name }}</div>
+            <div *ngFor="let movie of c.movie">
+                <div>movie.title</div>
+                <div>movie.position</div>
+                <div>movie.quantity</div>
+            </div>
+        </div>
+    </div>
+    <div class="pure-u-1">
+        <div>Usuários que mais assistiram filmes:</div>
+        <div class="pure-u-1" *ngFor="let v of view">
+            <div>v.name</div>
+            <div>v.age</div>
+            <div>v.country</div>
+            <div>v.position</div>
+            <div>v.views</div>
+        </div>
+    <div class="pure-u-1">
+        <div>Tipos de filmes mais assistidos:</div>
+        <div class="pure-u-1" *ngFor="let k of kind">
+            <div>k.type</div>
+            <div>k.position</div>
+            <div>k.views</div>
+        </div>
+    </div>
+</div>

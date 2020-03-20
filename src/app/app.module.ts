@@ -28,6 +28,7 @@ import { ProfileComponent } from './profile/profile.component'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
 import { PlayerComponent } from './player/player.component';
+import { InfosService } from './infos/infos.service';
 
 @NgModule({
   declarations: [
@@ -59,7 +60,7 @@ import { PlayerComponent } from './player/player.component';
     FormsModule,
     ReactiveFormsModule
   ],
-  providers: [CarouselService, BannerService],
+  providers: [CarouselService, BannerService, InfosService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
