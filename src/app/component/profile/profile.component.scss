@@ -1,0 +1,69 @@
+.profile {
+    padding-top: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    background-image: url('./../../assets/img/background.jpg');
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50PX;
+    }
+
+    &__container-content {
+        background-color: rgba(0, 0, 0, 0.75);
+        padding: 68px;
+        width: 314px;
+        height: auto;
+        border-radius: 4px;
+    }
+
+    &-watched {
+        font-size: 20px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    &-name {
+        padding-top: 25px;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    &-email {
+        font-size: 13px;
+    }
+
+    &__last {
+        padding-top: 25px;
+
+        &-item {
+            text-align: left;
+            font-size: 15px;
+            margin-bottom: 5px;
+        }
+    }
+    
+    &__text {
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    &__picture {
+        display: flex;
+        justify-content: center;
+
+        &-img {
+            background-image: url(./../../assets/img/user.jpg);
+            width: 100px;
+            height: 100px;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            border-radius: 50%;
+        }
+    }
+}
