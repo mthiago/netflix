@@ -1,11 +1,12 @@
+
 <div class="login">
     <div>
-        <div class="login__container pure-u-1">
+        <div class="login__container pure-u-sm-1">
             <div class="login__container-content">
-                <div class="pure-u-1 login__entrar">Entrar</div>
+                <div class="pure-u-sm-1 login__entrar">Entrar</div>
                 <form [formGroup]="loginForm" (ngSubmit)="login(loginForm.value)" class="login__form">
-                    <input type="text" id="email" required formControlName="email" class="form-control login__input pure-u-1" placeholder="Email ou número de telefone">
-                    <input type="text" id="password" formControlName="password" class="login__input pure-u-1" placeholder="Senha">
+                    <input type="text" id="email" required formControlName="email" class="form-control login__input pure-u-sm-1" placeholder="Email ou número de telefone">
+                    <input type="text" id="password" formControlName="password" class="login__input pure-u-sm-1" placeholder="Senha">
                     <span *ngIf="email.dirty"> Ok</span>
                     <app-button></app-button>
                 </form>
