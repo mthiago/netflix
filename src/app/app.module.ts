@@ -14,8 +14,6 @@ import { BannerComponent } from './component/banner/banner.component';
 import { LoginComponent } from './component/login/login.component';
 import { HomeComponent } from './component/home/home.component';
 import { InfosComponent } from './component/infos/infos.component';
-import { LoginDetailsComponent } from './component/login-details/login-details.component';
-import { LoginOptionsComponent } from './component/login-options/login-options.component';
 import { ButtonComponent } from './component/button/button.component';
 import { BannerNameComponent } from './component/banner-name/banner-name.component';
 import { BannerDetailsComponent } from './component/banner-details/banner-details.component';
@@ -35,8 +33,6 @@ import { InfosService } from './component/infos/infos.service';
     LoginComponent,
     HomeComponent,
     InfosComponent,
-    LoginDetailsComponent,
-    LoginOptionsComponent,
     ButtonComponent,
     BannerNameComponent,
     BannerDetailsComponent,

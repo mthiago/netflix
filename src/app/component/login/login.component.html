@@ -1,4 +1,3 @@
-
 <div class="login">
     <div>
         <div class="login__container pure-u-sm-1">
@@ -7,11 +6,32 @@
                 <form [formGroup]="loginForm" (ngSubmit)="login(loginForm.value)" class="login__form">
                     <input type="text" id="email" required formControlName="email" class="form-control login__input pure-u-sm-1" placeholder="Email ou número de telefone">
                     <input type="text" id="password" formControlName="password" class="login__input pure-u-sm-1" placeholder="Senha">
-                    <span *ngIf="email.dirty"> Ok</span>
-                    <app-button></app-button>
+                    <button type="submit" class="login-button">Entrar</button>
                 </form>
-                <app-login-options></app-login-options>
-                <app-login-details></app-login-details>
+                <div class="login-options pure-u-1">
+                    <div class="login-options__option">
+                        <input type="checkbox">
+                        Lembrar-se de mim
+                    </div>
+                    <div class="login-options__option">Precisa de ajuda?</div>
+                </div>
+                <div class="login-details__social">
+                    <div class="login-details__facebook pure-u-1">
+                        <div class="login-details__facebook--icon"></div>
+                        <div>Conectar com Facebook</div>
+                    </div>
+                    <div class="login-details__assinatura pure-u-1">
+                        <div class="login-details__assinatura-new">
+                            Novo por aqui?
+                            <a href="/">Assine agora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="login-details__captcha pure-u-1">
+                    Esta página é protegida pelo Google reCAPTCHA
+                    para garantir que você não é um robô.
+                    <div class="login-details__captcha-more">Saiba mais.</div>
+                </div>
             </div>
         </div>
     </div>
