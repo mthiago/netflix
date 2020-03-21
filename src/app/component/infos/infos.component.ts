@@ -2,9 +2,9 @@ import { Component, OnInit } from '@angular/core';
 
 import { InfosService } from './infos.service'
 
-import { Country } from '../model/country.model'
-import { View } from '../model/view.model'
-import { Kind } from '../model/Kind.model'
+import { Country } from './../../model/country.model'
+import { View } from './../../model/view.model'
+import { Kind } from './../../model/Kind.model'
 
 @Component({
   selector: 'app-infos',
@@ -21,12 +21,11 @@ export class InfosComponent implements OnInit {
 
   ngOnInit() {
     this.topMovies()
-    //this.topUsers()
-    //this.topViews()
+    this.topUsers()
+    this.topViews()
   }
 
   topMovies() {
-    console.log('a')
     this.infosService.topMovies()
       .subscribe(res => this.country = res)
   }

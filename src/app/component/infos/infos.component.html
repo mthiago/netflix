@@ -1,31 +1,54 @@
-<div class="pure-u-1">
-    <div class="pure-u-1">Informações de Visualizações</div>
-    <div class="pure-u-1">
-        <div>Filmes mais assistidos em ao redor do mundo:</div>
-        <div class="pure-u-1" *ngFor="let c of country">
-            <div>{{ c.name }}</div>
-            <div *ngFor="let movie of c.movie">
-                <div>movie.title</div>
-                <div>movie.position</div>
-                <div>movie.quantity</div>
+<app-header></app-header>
+<div class="pure-u-sm-1 infos">
+    <div class="pure-u-sm-1 infos__header">Informações de Visualizações</div>
+    <div class="pure-u-sm-1-3 pure-u-1">
+        <div class="pure-u-sm-1">
+            <div class="infos__container">
+                <div class="infos__container-content">
+                    <div class="infos__item">Filmes mais assistidos ao redor do mundo</div>
+                </div>
+            </div>
+            <div class="pure-u-sm-1" *ngFor="let c of country">
+                <div class="infos__item-content">
+                    <div class="infos__item-value">País: {{ c.name }}</div>
+                    <div *ngFor="let m of c.movie">
+                        <div class="infos__item-value">Filme: {{ m.title }}</div>
+                        <div class="infos__item-value">Posição: {{ m.position }}</div>
+                        <div class="infos__item-value">Quantidade de visualizações: {{ m.quantity }}</div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="pure-u-1">
-        <div>Usuários que mais assistiram filmes:</div>
-        <div class="pure-u-1" *ngFor="let v of view">
-            <div>v.name</div>
-            <div>v.age</div>
-            <div>v.country</div>
-            <div>v.position</div>
-            <div>v.views</div>
+    <div class="pure-u-sm-1-3 pure-u-1">
+        <div class="infos__container">
+            <div class="infos__container-content">
+                <div class="infos__item">Usuários que mais assistiram filmes</div>
+            </div>
         </div>
-    <div class="pure-u-1">
-        <div>Tipos de filmes mais assistidos:</div>
-        <div class="pure-u-1" *ngFor="let k of kind">
-            <div>k.type</div>
-            <div>k.position</div>
-            <div>k.views</div>
+        <div class="pure-u-sm-1" *ngFor="let v of view">
+            <div class="infos__item-content">
+                <div class="infos__item-value">Nome: {{ v.name }}</div>
+                <div class="infos__item-value">Idade: {{ v.age }}</div>
+                <div class="infos__item-value">País: {{ v.country }}</div>
+                <div class="infos__item-value">Posição: {{ v.position }}</div>
+                <div class="infos__item-value">Visualizações: {{ v.views }}</div>
+            </div>
+        </div>
+    </div>
+    <div class="pure-u-sm-1-3 pure-u-1">
+        <div class="infos__container">
+            <div class="infos__container-content">
+                <div class="infos__item">Tipos de filmes mais assistidos</div>
+            </div>
+        </div>
+        <div class="pure-u-sm-1" *ngFor="let k of kind">
+            <div class="infos__item-content">
+                <div class="infos__item-value">Gênero: {{ k.type }}</div>
+                <div class="infos__item-value">Posição: {{ k.position }}</div>
+                <div class="infos__item-value">Quantidade de visualizações: {{ k.views }}</div>
+            </div>
         </div>
     </div>
 </div>
+<app-footer></app-footer>

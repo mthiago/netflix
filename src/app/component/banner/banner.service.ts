@@ -6,7 +6,7 @@ import { map } from 'rxjs/operators';
 
 import { Banner } from './banner.model'
 
-import {NETFLIX_API} from '../../../app.api'
+import {NETFLIX_API} from '../../../../app.api'
 
 @Injectable()
 export class BannerService {

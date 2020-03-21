@@ -41,80 +41,76 @@
             "imagePath": "assets/img/top/main.webp"
         }
     ],
-    "info": [
+    "country": [
         {
-            "country": [
+            "name": "Brazil",
+            "movie": [
                 {
-                    "name": "Brazil",
-                    "movie": [
-                        {
-                            "title": "Cheech and Chong - Smoking All",
-                            "position": 1,
-                            "quantity": 40
-                        },
-                        {
-                            "title": "Breaking Bad",
-                            "position": 2,
-                            "quantity": 30
-                        }
-                    ]
-                },
-                {
-                    "name": "USA",
-                    "movie": [
-                        {
-                            "title": "Prison Break",
-                            "position": 1,
-                            "quantity": 170
-                        },
-                        {
-                            "title": "Walking Dead",
-                            "position": 2,
-                            "quantity": 130
-                        }                 
-                    ]
-                }                
-            ],
-            "view": [
-                {
-                    "name": "André",
-                    "age": 38,
-                    "country": "Brazil",
+                    "title": "Cheech and Chong - Smoking All",
                     "position": 1,
-                    "views": 13
+                    "quantity": 40
                 },
                 {
-                    "name": "Carlos",
-                    "age": 21,
-                    "country": "Brazil",
+                    "title": "Breaking Bad",
                     "position": 2,
-                    "views": 12
-                },
-                {
-                    "name": "João",
-                    "age": 24,
-                    "country": "Brazil",
-                    "position": 3,
-                    "views": 7
-                }                                                
-            ],            
-            "kind": [
-                {
-                    "type": "Fantasy",
-                    "position": 1,
-                    "views": 1942
-                },
-                {
-                    "type": "Horror",
-                    "position": 2,
-                    "views": 1912
-                },
-                {
-                    "type": "Action",
-                    "position": 3,
-                    "views": 741
-                }                
+                    "quantity": 30
+                }
             ]
-        }
+        },
+        {
+            "name": "USA",
+            "movie": [
+                {
+                    "title": "Prison Break",
+                    "position": 1,
+                    "quantity": 170
+                },
+                {
+                    "title": "Walking Dead",
+                    "position": 2,
+                    "quantity": 130
+                }                 
+            ]
+        }                
+    ],
+    "view": [
+        {
+            "name": "André",
+            "age": 38,
+            "country": "Brazil",
+            "position": 1,
+            "views": 13
+        },
+        {
+            "name": "Carlos",
+            "age": 21,
+            "country": "Brazil",
+            "position": 2,
+            "views": 12
+        },
+        {
+            "name": "João",
+            "age": 24,
+            "country": "Brazil",
+            "position": 3,
+            "views": 7
+        }                                                
+    ],            
+    "kind": [
+        {
+            "type": "Fantasy",
+            "position": 1,
+            "views": 1942
+        },
+        {
+            "type": "Horror",
+            "position": 2,
+            "views": 1912
+        },
+        {
+            "type": "Action",
+            "position": 3,
+            "views": 741
+        }                
     ]
 }
