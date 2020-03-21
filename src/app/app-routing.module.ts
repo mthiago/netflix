@@ -8,7 +8,7 @@ import { InfosComponent } from './component/infos/infos.component';
 
 const APP_ROUTES: Routes = [
   {
-    path: 'login',
+    path: '',
     component: LoginComponent
   },      
   {
